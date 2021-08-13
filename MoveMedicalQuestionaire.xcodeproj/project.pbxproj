@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D58FF1C26C5C034000AE74C /* ItemFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D58FF1B26C5C034000AE74C /* ItemFormViewController.swift */; };
+		9D58FF2526C5C85D000AE74C /* ItemFormTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D58FF2326C5C85D000AE74C /* ItemFormTableViewCell.swift */; };
+		9D58FF2626C5C85D000AE74C /* ItemFormTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D58FF2426C5C85D000AE74C /* ItemFormTableViewCell.xib */; };
+		9DBDAC2326C59B85005FADCD /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBDAC2226C59B85005FADCD /* ItemsViewController.swift */; };
+		9DBDAC2C26C59BBF005FADCD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBDAC2B26C59BBF005FADCD /* Item.swift */; };
+		9DBDAC3126C59BD5005FADCD /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBDAC3026C59BD5005FADCD /* Book.swift */; };
+		9DBDAC3C26C59C04005FADCD /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBDAC3B26C59C04005FADCD /* Phone.swift */; };
+		9DBDAC4126C59C29005FADCD /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBDAC4026C59C29005FADCD /* Car.swift */; };
+		9DBDAC4B26C59CA6005FADCD /* ItemTypeCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBDAC4A26C59CA6005FADCD /* ItemTypeCells.swift */; };
+		9DBDAC5226C59D70005FADCD /* LandingPageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBDAC5026C59D70005FADCD /* LandingPageTableViewCell.swift */; };
+		9DBDAC5326C59D70005FADCD /* LandingPageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DBDAC5126C59D70005FADCD /* LandingPageTableViewCell.xib */; };
+		9DBDAC6726C5A1C9005FADCD /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBDAC6626C5A1C9005FADCD /* ItemDetailViewController.swift */; };
+		9DBDAC6D26C5A298005FADCD /* ItemDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBDAC6B26C5A298005FADCD /* ItemDetailTableViewCell.swift */; };
+		9DBDAC6E26C5A298005FADCD /* ItemDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DBDAC6C26C5A298005FADCD /* ItemDetailTableViewCell.xib */; };
+		9DEA2B7426C59A720094CC51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA2B7326C59A720094CC51 /* AppDelegate.swift */; };
+		9DEA2B7626C59A720094CC51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA2B7526C59A720094CC51 /* SceneDelegate.swift */; };
+		9DEA2B7B26C59A720094CC51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DEA2B7926C59A720094CC51 /* Main.storyboard */; };
+		9DEA2B7D26C59A740094CC51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DEA2B7C26C59A740094CC51 /* Assets.xcassets */; };
+		9DEA2B8026C59A740094CC51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DEA2B7E26C59A740094CC51 /* LaunchScreen.storyboard */; };
+		9DEA2B8B26C59A740094CC51 /* MoveMedicalQuestionaireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA2B8A26C59A740094CC51 /* MoveMedicalQuestionaireTests.swift */; };
+		9DEA2B9626C59A740094CC51 /* MoveMedicalQuestionaireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEA2B9526C59A740094CC51 /* MoveMedicalQuestionaireUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DEA2B8726C59A740094CC51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DEA2B6826C59A720094CC51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DEA2B6F26C59A720094CC51;
+			remoteInfo = MoveMedicalQuestionaire;
+		};
+		9DEA2B9226C59A740094CC51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DEA2B6826C59A720094CC51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DEA2B6F26C59A720094CC51;
+			remoteInfo = MoveMedicalQuestionaire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D58FF1B26C5C034000AE74C /* ItemFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemFormViewController.swift; sourceTree = "<group>"; };
+		9D58FF2326C5C85D000AE74C /* ItemFormTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemFormTableViewCell.swift; sourceTree = "<group>"; };
+		9D58FF2426C5C85D000AE74C /* ItemFormTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemFormTableViewCell.xib; sourceTree = "<group>"; };
+		9DBDAC2226C59B85005FADCD /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		9DBDAC2B26C59BBF005FADCD /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		9DBDAC3026C59BD5005FADCD /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		9DBDAC3B26C59C04005FADCD /* Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		9DBDAC4026C59C29005FADCD /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		9DBDAC4A26C59CA6005FADCD /* ItemTypeCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTypeCells.swift; sourceTree = "<group>"; };
+		9DBDAC5026C59D70005FADCD /* LandingPageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageTableViewCell.swift; sourceTree = "<group>"; };
+		9DBDAC5126C59D70005FADCD /* LandingPageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LandingPageTableViewCell.xib; sourceTree = "<group>"; };
+		9DBDAC6626C5A1C9005FADCD /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
+		9DBDAC6B26C5A298005FADCD /* ItemDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailTableViewCell.swift; sourceTree = "<group>"; };
+		9DBDAC6C26C5A298005FADCD /* ItemDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemDetailTableViewCell.xib; sourceTree = "<group>"; };
+		9DEA2B7026C59A720094CC51 /* MoveMedicalQuestionaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveMedicalQuestionaire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DEA2B7326C59A720094CC51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DEA2B7526C59A720094CC51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9DEA2B7A26C59A720094CC51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DEA2B7C26C59A740094CC51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DEA2B7F26C59A740094CC51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DEA2B8126C59A740094CC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DEA2B8626C59A740094CC51 /* MoveMedicalQuestionaireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveMedicalQuestionaireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DEA2B8A26C59A740094CC51 /* MoveMedicalQuestionaireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveMedicalQuestionaireTests.swift; sourceTree = "<group>"; };
+		9DEA2B8C26C59A740094CC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DEA2B9126C59A740094CC51 /* MoveMedicalQuestionaireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveMedicalQuestionaireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DEA2B9526C59A740094CC51 /* MoveMedicalQuestionaireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveMedicalQuestionaireUITests.swift; sourceTree = "<group>"; };
+		9DEA2B9726C59A740094CC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DEA2B6D26C59A720094CC51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEA2B8326C59A740094CC51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEA2B8E26C59A740094CC51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DBDAC2726C59BA2005FADCD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9DBDAC2B26C59BBF005FADCD /* Item.swift */,
+				9DBDAC3026C59BD5005FADCD /* Book.swift */,
+				9DBDAC3B26C59C04005FADCD /* Phone.swift */,
+				9DBDAC4026C59C29005FADCD /* Car.swift */,
+				9DBDAC4A26C59CA6005FADCD /* ItemTypeCells.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9DBDAC4F26C59D1F005FADCD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9DBDAC5026C59D70005FADCD /* LandingPageTableViewCell.swift */,
+				9DBDAC5126C59D70005FADCD /* LandingPageTableViewCell.xib */,
+				9DBDAC6B26C5A298005FADCD /* ItemDetailTableViewCell.swift */,
+				9DBDAC6C26C5A298005FADCD /* ItemDetailTableViewCell.xib */,
+				9D58FF2326C5C85D000AE74C /* ItemFormTableViewCell.swift */,
+				9D58FF2426C5C85D000AE74C /* ItemFormTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9DBDAC5A26C5A188005FADCD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DBDAC2226C59B85005FADCD /* ItemsViewController.swift */,
+				9DBDAC6626C5A1C9005FADCD /* ItemDetailViewController.swift */,
+				9D58FF1B26C5C034000AE74C /* ItemFormViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9DEA2B6726C59A720094CC51 = {
+			isa = PBXGroup;
+			children = (
+				9DEA2B7226C59A720094CC51 /* MoveMedicalQuestionaire */,
+				9DEA2B8926C59A740094CC51 /* MoveMedicalQuestionaireTests */,
+				9DEA2B9426C59A740094CC51 /* MoveMedicalQuestionaireUITests */,
+				9DEA2B7126C59A720094CC51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DEA2B7126C59A720094CC51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DEA2B7026C59A720094CC51 /* MoveMedicalQuestionaire.app */,
+				9DEA2B8626C59A740094CC51 /* MoveMedicalQuestionaireTests.xctest */,
+				9DEA2B9126C59A740094CC51 /* MoveMedicalQuestionaireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DEA2B7226C59A720094CC51 /* MoveMedicalQuestionaire */ = {
+			isa = PBXGroup;
+			children = (
+				9DBDAC5A26C5A188005FADCD /* ViewControllers */,
+				9DBDAC4F26C59D1F005FADCD /* Cells */,
+				9DBDAC2726C59BA2005FADCD /* Models */,
+				9DEA2B7326C59A720094CC51 /* AppDelegate.swift */,
+				9DEA2B7526C59A720094CC51 /* SceneDelegate.swift */,
+				9DEA2B7926C59A720094CC51 /* Main.storyboard */,
+				9DEA2B7C26C59A740094CC51 /* Assets.xcassets */,
+				9DEA2B7E26C59A740094CC51 /* LaunchScreen.storyboard */,
+				9DEA2B8126C59A740094CC51 /* Info.plist */,
+			);
+			path = MoveMedicalQuestionaire;
+			sourceTree = "<group>";
+		};
+		9DEA2B8926C59A740094CC51 /* MoveMedicalQuestionaireTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DEA2B8A26C59A740094CC51 /* MoveMedicalQuestionaireTests.swift */,
+				9DEA2B8C26C59A740094CC51 /* Info.plist */,
+			);
+			path = MoveMedicalQuestionaireTests;
+			sourceTree = "<group>";
+		};
+		9DEA2B9426C59A740094CC51 /* MoveMedicalQuestionaireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DEA2B9526C59A740094CC51 /* MoveMedicalQuestionaireUITests.swift */,
+				9DEA2B9726C59A740094CC51 /* Info.plist */,
+			);
+			path = MoveMedicalQuestionaireUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DEA2B6F26C59A720094CC51 /* MoveMedicalQuestionaire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DEA2B9A26C59A740094CC51 /* Build configuration list for PBXNativeTarget "MoveMedicalQuestionaire" */;
+			buildPhases = (
+				9DEA2B6C26C59A720094CC51 /* Sources */,
+				9DEA2B6D26C59A720094CC51 /* Frameworks */,
+				9DEA2B6E26C59A720094CC51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoveMedicalQuestionaire;
+			productName = MoveMedicalQuestionaire;
+			productReference = 9DEA2B7026C59A720094CC51 /* MoveMedicalQuestionaire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DEA2B8526C59A740094CC51 /* MoveMedicalQuestionaireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DEA2B9D26C59A740094CC51 /* Build configuration list for PBXNativeTarget "MoveMedicalQuestionaireTests" */;
+			buildPhases = (
+				9DEA2B8226C59A740094CC51 /* Sources */,
+				9DEA2B8326C59A740094CC51 /* Frameworks */,
+				9DEA2B8426C59A740094CC51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DEA2B8826C59A740094CC51 /* PBXTargetDependency */,
+			);
+			name = MoveMedicalQuestionaireTests;
+			productName = MoveMedicalQuestionaireTests;
+			productReference = 9DEA2B8626C59A740094CC51 /* MoveMedicalQuestionaireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DEA2B9026C59A740094CC51 /* MoveMedicalQuestionaireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DEA2BA026C59A740094CC51 /* Build configuration list for PBXNativeTarget "MoveMedicalQuestionaireUITests" */;
+			buildPhases = (
+				9DEA2B8D26C59A740094CC51 /* Sources */,
+				9DEA2B8E26C59A740094CC51 /* Frameworks */,
+				9DEA2B8F26C59A740094CC51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DEA2B9326C59A740094CC51 /* PBXTargetDependency */,
+			);
+			name = MoveMedicalQuestionaireUITests;
+			productName = MoveMedicalQuestionaireUITests;
+			productReference = 9DEA2B9126C59A740094CC51 /* MoveMedicalQuestionaireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DEA2B6826C59A720094CC51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9DEA2B6F26C59A720094CC51 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					9DEA2B8526C59A740094CC51 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9DEA2B6F26C59A720094CC51;
+					};
+					9DEA2B9026C59A740094CC51 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9DEA2B6F26C59A720094CC51;
+					};
+				};
+			};
+			buildConfigurationList = 9DEA2B6B26C59A720094CC51 /* Build configuration list for PBXProject "MoveMedicalQuestionaire" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DEA2B6726C59A720094CC51;
+			productRefGroup = 9DEA2B7126C59A720094CC51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DEA2B6F26C59A720094CC51 /* MoveMedicalQuestionaire */,
+				9DEA2B8526C59A740094CC51 /* MoveMedicalQuestionaireTests */,
+				9DEA2B9026C59A740094CC51 /* MoveMedicalQuestionaireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DEA2B6E26C59A720094CC51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DBDAC6E26C5A298005FADCD /* ItemDetailTableViewCell.xib in Resources */,
+				9DEA2B8026C59A740094CC51 /* LaunchScreen.storyboard in Resources */,
+				9D58FF2626C5C85D000AE74C /* ItemFormTableViewCell.xib in Resources */,
+				9DEA2B7D26C59A740094CC51 /* Assets.xcassets in Resources */,
+				9DBDAC5326C59D70005FADCD /* LandingPageTableViewCell.xib in Resources */,
+				9DEA2B7B26C59A720094CC51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEA2B8426C59A740094CC51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEA2B8F26C59A740094CC51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DEA2B6C26C59A720094CC51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DBDAC3126C59BD5005FADCD /* Book.swift in Sources */,
+				9DBDAC6D26C5A298005FADCD /* ItemDetailTableViewCell.swift in Sources */,
+				9DEA2B7426C59A720094CC51 /* AppDelegate.swift in Sources */,
+				9D58FF2526C5C85D000AE74C /* ItemFormTableViewCell.swift in Sources */,
+				9DBDAC2326C59B85005FADCD /* ItemsViewController.swift in Sources */,
+				9DBDAC2C26C59BBF005FADCD /* Item.swift in Sources */,
+				9D58FF1C26C5C034000AE74C /* ItemFormViewController.swift in Sources */,
+				9DBDAC5226C59D70005FADCD /* LandingPageTableViewCell.swift in Sources */,
+				9DBDAC3C26C59C04005FADCD /* Phone.swift in Sources */,
+				9DBDAC4B26C59CA6005FADCD /* ItemTypeCells.swift in Sources */,
+				9DBDAC4126C59C29005FADCD /* Car.swift in Sources */,
+				9DBDAC6726C5A1C9005FADCD /* ItemDetailViewController.swift in Sources */,
+				9DEA2B7626C59A720094CC51 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEA2B8226C59A740094CC51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEA2B8B26C59A740094CC51 /* MoveMedicalQuestionaireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEA2B8D26C59A740094CC51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEA2B9626C59A740094CC51 /* MoveMedicalQuestionaireUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DEA2B8826C59A740094CC51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DEA2B6F26C59A720094CC51 /* MoveMedicalQuestionaire */;
+			targetProxy = 9DEA2B8726C59A740094CC51 /* PBXContainerItemProxy */;
+		};
+		9DEA2B9326C59A740094CC51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DEA2B6F26C59A720094CC51 /* MoveMedicalQuestionaire */;
+			targetProxy = 9DEA2B9226C59A740094CC51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DEA2B7926C59A720094CC51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DEA2B7A26C59A720094CC51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DEA2B7E26C59A740094CC51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DEA2B7F26C59A740094CC51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DEA2B9826C59A740094CC51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DEA2B9926C59A740094CC51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DEA2B9B26C59A740094CC51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8M5Q6ADTX;
+				INFOPLIST_FILE = MoveMedicalQuestionaire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JackBordner.MoveMedicalQuestionaire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DEA2B9C26C59A740094CC51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8M5Q6ADTX;
+				INFOPLIST_FILE = MoveMedicalQuestionaire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JackBordner.MoveMedicalQuestionaire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9DEA2B9E26C59A740094CC51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8M5Q6ADTX;
+				INFOPLIST_FILE = MoveMedicalQuestionaireTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JackBordner.MoveMedicalQuestionaireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoveMedicalQuestionaire.app/MoveMedicalQuestionaire";
+			};
+			name = Debug;
+		};
+		9DEA2B9F26C59A740094CC51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8M5Q6ADTX;
+				INFOPLIST_FILE = MoveMedicalQuestionaireTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JackBordner.MoveMedicalQuestionaireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoveMedicalQuestionaire.app/MoveMedicalQuestionaire";
+			};
+			name = Release;
+		};
+		9DEA2BA126C59A740094CC51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8M5Q6ADTX;
+				INFOPLIST_FILE = MoveMedicalQuestionaireUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JackBordner.MoveMedicalQuestionaireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoveMedicalQuestionaire;
+			};
+			name = Debug;
+		};
+		9DEA2BA226C59A740094CC51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8M5Q6ADTX;
+				INFOPLIST_FILE = MoveMedicalQuestionaireUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JackBordner.MoveMedicalQuestionaireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoveMedicalQuestionaire;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DEA2B6B26C59A720094CC51 /* Build configuration list for PBXProject "MoveMedicalQuestionaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEA2B9826C59A740094CC51 /* Debug */,
+				9DEA2B9926C59A740094CC51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DEA2B9A26C59A740094CC51 /* Build configuration list for PBXNativeTarget "MoveMedicalQuestionaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEA2B9B26C59A740094CC51 /* Debug */,
+				9DEA2B9C26C59A740094CC51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DEA2B9D26C59A740094CC51 /* Build configuration list for PBXNativeTarget "MoveMedicalQuestionaireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEA2B9E26C59A740094CC51 /* Debug */,
+				9DEA2B9F26C59A740094CC51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DEA2BA026C59A740094CC51 /* Build configuration list for PBXNativeTarget "MoveMedicalQuestionaireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEA2BA126C59A740094CC51 /* Debug */,
+				9DEA2BA226C59A740094CC51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DEA2B6826C59A720094CC51 /* Project object */;
+}
